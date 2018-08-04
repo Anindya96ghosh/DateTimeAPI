@@ -6,12 +6,13 @@ public class Assignment {
 	private String subject;
 	private LocalDate dueDate;
 	 
-	
+	//Parameterized Contructors
 	public Assignment(String subject, LocalDate dueDate) {
 		this.subject = subject;
 		this.dueDate = dueDate;
 	}
 	
+	//Getters
 	public String getSubject() {
 		return subject;
 	}
@@ -20,7 +21,7 @@ public class Assignment {
 		return dueDate;
 	}
 	
-	
+	//Overriden toString method
 	@Override
 	public String toString() {
 		return "Assignment [subject=" + subject + ", dueDate=" + dueDate + "]";
