@@ -7,7 +7,7 @@ public class DisplayToday {
 	public static void main(String args[]) {
 		LocalDate date;
 		
-		date = LocalDate.now();
+		date = LocalDate.now(); //storing current date in object 'date'
 		System.out.println(date.getDayOfWeek()+", "+date.getMonth()+" "+date.getDayOfMonth()+", "+date.getYear());
 	}
 }
