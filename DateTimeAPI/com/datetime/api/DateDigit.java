@@ -11,6 +11,7 @@ public class DateDigit {
 		System.out.println("Enter the date as DDMMYYYY");
 		String str = sc.nextLine();
 		
+		//foratting the Date using DateTimeFormatter
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("ddMMyyyy");
 		
 		LocalDate date = LocalDate.parse(str,formatter);
